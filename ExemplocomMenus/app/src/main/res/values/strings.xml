@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exemplo com Menus</string>
+    <string name="demostra_o_do_uso_de_menus">Demostração do Uso de Menus</string>
+    <string name="novo">Novo</string>
+    <string name="abrir">Abrir</string>
+    <string name="salvar">Salvar</string>
+    <string name="salvar_c_pia">Salvar Cópia</string>
+    <string name="salvar_como">Salvar Como</string>
+</resources>

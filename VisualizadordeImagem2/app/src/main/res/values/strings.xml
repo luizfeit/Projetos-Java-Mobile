@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Visualizador de Imagem 2</string>
+    <string name="anterior">Anterior</string>
+    <string name="proximo">Proximo</string>
+</resources>

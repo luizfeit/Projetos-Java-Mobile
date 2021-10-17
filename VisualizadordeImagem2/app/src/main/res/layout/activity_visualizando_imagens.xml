@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_visualizando_imagens"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tela"
+    tools:context=".VisualizandoImagensActivity">
+
+    <ImageSwitcher
+        android:id="@+id/imgFoto"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="101dp" />
+
+    <ImageSwitcher
+        android:id="@+id/imgSobre"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imgFoto"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:id="@+id/layoutBotoes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgSobre"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btanterior"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/anterior"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btproximo"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/proximo"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+</RelativeLayout>
